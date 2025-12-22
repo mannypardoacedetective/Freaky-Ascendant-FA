@@ -8,7 +8,7 @@ ClassInfo
 	weapons				WP_SABER|WP_MELEE
 	attributes			MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,3|MB_ATT_FP_MIRALUKA,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_ANTI_MT,2|MB_ATT_RALLY,1|MB_ATT_DEFLECT,3
 	saberstyle			SS_MEDIUM|SS_STRONG
-	forcepowers			FP_LEVITATION,3|FP_PUSH,3|FP_PULL,2|FP_SABER_OFFENSE,3|FP_SEE,1|FP_SABERTHROW,3|FP_GRIP,2|FP_TEAM_FORCE,2
+	forcepowers			FP_LEVITATION,3|FP_PUSH,3|FP_PULL,2|FP_SABER_OFFENSE,3|FP_SEE,1|FP_SABERTHROW,3|FP_GRIP,2|FP_TEAM_FORCE,1
 	maxhealth			120
     maxarmor            40
 	forcepool           125
@@ -77,7 +77,7 @@ A Jedi General who led his private army instead of Clone Troopers. Inferior sabe
 - Jump (3)
 - Push (3)
 - Grip (2)
-- Team Energize (2) ^3[CS3]
+- Team Energize (1) ^3[CS3]
 - Pull (2) ^3[CS4]
 
 ^8Attributes:
