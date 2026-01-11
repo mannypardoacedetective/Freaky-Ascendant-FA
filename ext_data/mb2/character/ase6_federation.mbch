@@ -38,7 +38,7 @@ ClassInfo
 	skin_1	"default"
 	uishader_1  	"gfx/hud/FA_icons/mb2_icon_rune"
 	
-	rateoffire		.35
+	rateoffire		.25
 	classflags	CFL_RUNFASTMELEE
 }
 WeaponInfo0
