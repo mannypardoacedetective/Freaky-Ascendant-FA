@@ -1,0 +1,89 @@
+ClassInfo
+{
+	name			"v5_Jango"
+	MBClass			MB_CLASS_MANDALORIAN
+	classNumberLimit	1
+	weapons		WP_MANDO_PISTOL|WP_SABER
+	attributes	MB_ATT_BESKAR,3|MB_ATT_HEALING,2|MB_ATT_WRISTLASER|MB_ATT_MANDO_PISTOL,3|MB_ATT_FLAMETHROWER,1|MB_ATT_FUEL,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,3
+	basespeed   230
+	maxhealth	110
+	maxarmor		110
+	forcepool 	120
+	resource		RESOURCE_FUEL
+	saberdamage 120
+	APmultiplier    .60
+	BPmultiplier	.2
+	saberMaxChain 2
+	saberSpecialDamage 2
+	rateoffire	1
+	saber1		jangoblade
+	saberstyle	SS_TAVION
+	resourceRegenAmount 1
+	resourceRegenRate 1000
+	resourceRegenCap 	10
+
+	knockbackTaken 0.8
+	knockbackGiven .8
+	special1			EAS_HI_ROCKET
+	special2			EAS_HI_FLAME
+	special3			EAS_HI_KICK
+	special4			EAS_HI_GRAPPLEHOOK
+	modelscale  1.02
+	model	"jangofett"
+	skin		"default"
+	uishader	"models/players/jangofett/mb2_icon_default"
+	model_1		"jangofett"
+	skin_1		"jetpack2"
+	uishader_1	"models/players/jangofett/mb2_icon_jetpack2"
+	
+	uioverlay_r "gfx/icons/aerial"
+	uioverlay_l "gfx/icons/scout"
+	
+	//respawncustomtime 50000
+}
+WeaponInfo0
+{
+WeaponToReplace WP_MANDO_PISTOL
+WeaponBasedOff WP_MANDO_PISTOL
+WeaponName "Jango's Dual Westars"
+NewWorldModel		"models/weapons2/westar34/westar34.glm"
+NewViewModel		"models/weapons2/westar34/westar34.md3"
+Icon	"gfx/hud/w_icon_westar_3.tga"
+Clipsize	35
+customAmmo 840
+rateMod .85
+damageMod 1.1
+velocityMod	1.1
+FPMult 1.05
+reloadTimeModifier 2
+}
+description	"Jango Fett [Mandalorian]
+
+The greatest bounty hounter in the galaxy, boasting a jetpack, grappling hook, a wristblade, strong dual pistols, damage resistances, and a few offensive gadgets.
+
+^2Weaponry:
+- Melee
+- Beskar Wristblade (Cyan)
+-- Saber Chain Limit: 2
+-- Saber Damage (120)
+- WESTAR-34 Blaster Pistols (3)
+-- 15% faster RoF
+-- 10% more DMG
+-- 10% faster velocity
+-- 5% more FP dmg
+-- 100% longer reload
+
+^8Attributes:
+- 20% less KB taken/given
+- Beskar (3)
+- Dexterity (3)
+- Blast Armor
+- Healing (2)
+- Tracking Beacon
+
+^3Abilities:
+- Jetpack
+- Rocket ^3[CS1]
+- Wrist Flamethrower/Laser ^3[CS2*]
+- Gun Kick ^3[CS3]
+- Grappling Hook (3) [CS4 Melee]"
