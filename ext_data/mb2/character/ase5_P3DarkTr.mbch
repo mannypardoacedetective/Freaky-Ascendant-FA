@@ -23,6 +23,8 @@ ClassInfo
 	
 	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK
 
+	bargeSoundOverride 		"sound/chars/k2so/misc/death2.mp3" //placeholder
+
 	resource	RESOURCE_FUEL
 	forcepool 200
 
@@ -51,7 +53,7 @@ ClassInfo
 
 	c_att_skill_5 	MB_ATT_THERMALS
 	c_att_names_5	"Thermal Detonator"
-	c_att_ranks_5	4,0
+	c_att_ranks_5	4
 
 	c_att_skill_6	MB_ATT_FRAGS
 	c_att_names_6	"Frag Grenades"
@@ -71,6 +73,11 @@ ClassInfo
 	jetpackThrustSound  "sound/effects/dtjetpack/thrust.wav"
 	jetpackStartSound 	"sound/effects/dtjetpack/start.wav"
 	jetpackIdleSound	"sound/effects/dtjetpack/idle.wav"
+
+	special1 EAS_NONE
+	special2 EAS_HI_BARGE
+	special3 EAS_NONE
+	special4 EAS_NONE
 	
 	//respawncustomtime 	75000
 	classNumberLimit  	2
@@ -140,7 +147,7 @@ animAttackWalk BOTH_PLX1_ATTACK
 	rateMod 1.25
 }
 
-description	"Dark Trooper Phase III [Wookiee] -Kalkite ^3Reworked 
+description	"Dark Trooper Phase III [Wookiee] ^3Reworked 
  
 A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 
@@ -169,4 +176,5 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 - Healing (1)
 
 ^3Abilities:
-- Jetpack"
+- Jetpack
+- Barge ^3[CS2]"

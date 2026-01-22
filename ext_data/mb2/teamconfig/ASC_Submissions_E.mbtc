@@ -9,7 +9,7 @@ Classes
 	class1	"v1_ImpSold"
 	class2	"v3_FOMarsh"
 	class3	"v6_ScoutTr"
-	Class4	"v8_GamoPig" 
+	class4	"v8_GamoPig" 
 	class5	"v9_SAcolyte"
 	class6	"v10_SForce"	
 }
@@ -17,27 +17,27 @@ Classes
 SubclassesForClass1
 {
 	Subclass1	"v1_ImpComm"
-	Subclass2 	"v1_NTroop"
-	Subclass3 	"v1_Undead"
+	Subclass2	"v1_NTroop"
+	Subclass3	"v1_Undead"
 	Subclass4	"v1_B1"
 	Subclass5	"v1_ORSithTr"
 	Subclass6	"v1_Thug"
 	Subclass7	"v1_TORagent"
-	Subclass8	"v1_Talz"
-	Subclass9	"v2_KMonkeyL"
-	Subclass10	"ase2_engineer"
-	Subclass11	"ase2_isb"
-	Subclass12	"v2_FlameTr"
-	Subclass13	"ase2_hazard"
-	Subclass14	"v2_Hondo"
-	Subclass15	"v2_Greedo" 
-	Subclass16	"v2_Calo"
-	Subclass17	"v3_HeavyStorm"
-	Subclass18 	"v3_Trando"
-	Subclass19	"v3_DeathTr"
-	Subclass20	"v3_Bossk"
-	Subclass21	"v3_IG88"
-	Subclass22	"ase3_RakatanInfantry"
+	Subclass8	"v2_KMonkeyL"
+	Subclass9	"ase2_Engineer"
+	Subclass10	"ase2_Isb"
+	Subclass11	"v2_FlameTr"
+	Subclass12	"ase2_Hazard"
+	Subclass13	"v2_Hondo"
+	Subclass14	"v2_Greedo"
+	Subclass15	"v2_Calo"
+	Subclass16	"v3_HeavyStorm"
+	Subclass17	"v3_Trando"
+	Subclass18	"v3_DeathTr"
+	Subclass19	"v3_Bossk"
+	Subclass20	"v3_IG88"
+	Subclass21	"ase3_RakatanInfantry"
+	Subclass22	"ase3_Cultforce"
 }
 
 SubclassesForClass2
@@ -46,7 +46,7 @@ SubclassesForClass2
 	Subclass2	"ase4_MagnaG"
 	Subclass3	"v4_PurgeTr"	
 	Subclass4	"v4_RoyalPr"
-	Subclass5	"v4_CarnorJax"
+	Subclass5	"ase4_CarnorJax"
 	Subclass6	"v4_Mara"
 	Subclass7	"v5_ImpArmCom"
 	Subclass8	"v5_Geonos"
@@ -66,7 +66,7 @@ SubclassesForClass2
 
 SubclassesForClass3
 {
-	Subclass1	"ase6_federation"
+	Subclass1	"ase6_Federation"
 	Subclass2	"ase6_Gideon"
 	Subclass3	"v6_Tusk"
 	Subclass4	"v6_Aurra"
@@ -96,7 +96,6 @@ SubclassesForClass4
 	Subclass5	"v8_Snoova"
 	Subclass6	"v8_Wampa"
 	Subclass7	"ase8_BlackK"
-	Subclass8	"ase8_RakatanInfantry"
 }
 
 SubclassesForClass5
@@ -116,7 +115,6 @@ SubclassesForClass5
 	Subclass13	"v9_Sion"
 	Subclass14	"ase9_TElder"
 	Subclass15	"ase9_Maw"
-	Subclass16	"ase9_cultforce"
 }
 
 SubclassesForClass6
@@ -133,11 +131,11 @@ SubclassesForClass6
 	Subclass10	"v10_Traya"
 	Subclass11	"ase10_Abeloth"
 	Subclass12	"ase10_Nadd"
-	Subclass13	"ase10_yun"
+	Subclass13	"ase10_Yun"
 	Subclass14	"ase10_Sariss"
-	Subclass15	"ase10_boc"
-	Subclass16	"ase10_x1"
-	subclass17	"ase10_pic"
-	Subclass18	"ase10_gorc"
-	Subclass19	"ase10_kallig"
+	Subclass15	"ase10_Boc"
+	Subclass16	"ase10_X1"
+	Subclass17	"ase10_Pic"
+	Subclass18	"ase10_Gorc"
+	Subclass19	"ase10_Kallig"
 }
