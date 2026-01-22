@@ -14,9 +14,9 @@ ClassInfo
 	modelscale 			1.15
 	damageTaken   		1.0
 	DamageGiven			1.1
-	speed               1.25
+	speed               1.15
 	forceregen 1.5
-	rateoffire_melee 	1.25
+	rateoffire_melee 	1.50
 	
 	knockbacktaken		0.8
 
@@ -31,11 +31,13 @@ ClassInfo
 	
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
 
+	bargeSoundOverride 		"sound/chars/k2so/misc/death2.mp3" //placeholder
+
 	resource	RESOURCE_STAMINA
 	forcepool 80
 
 	special1		EAS_HI_SPRINT
-	special2 		EAS_MELEE
+	special2 		EAS_HI_BARGE
 
 
 	isCustomBuild		1

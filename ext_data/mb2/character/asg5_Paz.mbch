@@ -32,7 +32,7 @@ ClassInfo
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE
 
 	maxhealth 		150
-	maxarmor		300
+	maxarmor		350
 
 	
 	speed              	0.82
@@ -74,15 +74,15 @@ WeaponInfo0
 	Icon			"gfx/hud/w_icon_rotary_cannon"
 	WeaponName		"M-55 Medium Repeating Blaster"
 	FlashSound0		"sound/weapons/e_22/fire.mp3"
-	customAmmo 		1200
+	customAmmo 		1400
 	isMinigun	1
-	clipSize	400
+	clipSize	200
 	ReloadTimeModifier	1.1
 	altFireEnabled	1
 	FPMult     0.9
-	velocityMod 1.2
+	velocityMod 0.92
 	damageMod 0.95
-	rateMod 0.92
+	rateMod 1.02
 }
 
 WeaponInfo1
@@ -102,7 +102,7 @@ ForceInfo0
 	ForcePowerName	"Last Stand"
 }
 
-description	"Paz Vizsla [Wookiee] -Kalkite ^3Reworked
+description	"Paz Vizsla [Wookiee] ^3Reworked
 
 A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistance. Can burn his Fuel for a short movement, attack speed, and defense boost.
 
