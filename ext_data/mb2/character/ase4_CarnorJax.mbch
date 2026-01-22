@@ -3,7 +3,7 @@
 
 ClassInfo
 {
-	name  			"v4_CarnorJax"
+	name  			"ase4_CarnorJax"
 	MBClass 			MB_CLASS_SITH
 	classNumberLimit	1
 	weapons 			WP_SABER|WP_MELEE|WP_BLASTER_PISTOL

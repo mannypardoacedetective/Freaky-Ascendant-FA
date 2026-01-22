@@ -3,7 +3,7 @@
 
 ClassInfo
 {
-	name  			"h4_KirKanos"
+	name  			"asg4_KirKanos"
 	MBClass 			MB_CLASS_JEDI
 	classNumberLimit	1
 	weapons 			WP_SABER|WP_MELEE|WP_BLASTER_PISTOL|WP_TRIP_MINE|WP_SONIC_NADE|WP_DET_PACK
