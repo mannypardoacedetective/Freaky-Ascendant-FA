@@ -5,12 +5,12 @@ ClassInfo
 {
 	name					"asg2_Padme"
 	weapons					WP_A280|WP_MELEE|WP_PULSE_NADE|WP_SONIC_NADE|WP_BLASTER_PISTOL
-	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,4|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_DEXTERITY,2|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_FLIPKICK,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,10|MB_ATT_DISP_BLOCK,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_QUICKTHROW,1|MB_ATT_DISP_FORCE,2|MB_ATT_STAMINA,3|MB_ATT_INAIR_FORCE_REGEN
+	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,4|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_DEXTERITY,2|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_FLIPKICK,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,10|MB_ATT_DISP_BLOCK,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_QUICKTHROW,1|MB_ATT_DISP_FORCE,2|MB_ATT_STAMINA,3
 	maxhealth				150
 	maxarmor				50
 	
 	resource RESOURCE_STAMINA
-	forcepool 100
+	forcepool 125
 	MBClass					MB_CLASS_HERO
 	modelscale 				0.933
 	speed					1.03
@@ -109,7 +109,7 @@ WeaponInfo1
 	animAttackWalk BOTH_ATTACK2 
 }
 
-description	"Padme Naberrie Amidala Skywalker [Hero] -Kalkite ^3Reworked
+description	"Padme Naberrie Amidala Skywalker [Hero] ^3Reworked
 
 A quick in-and-out gunner with powerful rapid fire blasters and self-healing items.
 
@@ -122,9 +122,12 @@ A quick in-and-out gunner with powerful rapid fire blasters and self-healing ite
 -- 10% more DMG
 - Pulse Grenades (4)
 
+^5Powers:
+- Team Energize (1)
+
 ^6Inventory:
-- Kolto (Gradual 50 HP)
-- Bacta (Instant 50 HP)
+- Medpac
+- Advanced Medpac
 
 ^8Attributes:
 - 5% more KB given

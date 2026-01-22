@@ -8,7 +8,7 @@ ClassInfo
 	forcepowers	FP_PUSH,3|FP_PULL,3|FP_SEE,3|FP_GRIP,3|FP_TEAM_HEAL,1|FP_TEAM_FORCE,2|FP_PROTECT,1|FP_ABSORB,1|FP_HEAL,1|FP_LEVITATION,1|FP_SPEED,1
 	maxhealth	60
 	forcepool	300
-	forceregen	0.5
+	forceregen	0.6
 	basespeed	150
 	resource RESOURCE_FORCE
 
