@@ -7,15 +7,15 @@ ClassInfo
 	classNumberLimit		1
 	weapons 	WP_A280|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2
+	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_TRACKING_BEACON
 	armourRegenCap 100
 	armourRegenAmount	1
 	armourRegenRate		1500
 	maxhealth   		200
 	maxarmor   	 	300
-	basespeed 		185
+	basespeed 		195
 	resource 		RESOURCE_RAGE
-	forcepool		100
+	forcepool		125
 	forceregen 		1
 	
 	forcepowers FP_RAGE,3
@@ -107,7 +107,7 @@ WeaponInfo1
 	altGore			1
 }
 
-description	"K-2SO [Wookiee] -Kalkite ^3Reworked
+description	"K-2SO [Wookiee]
 
 An exceptionally sturdy tank with protection against multiple Force powers and damage types. Deals massive knockback.
 
@@ -140,9 +140,10 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 - 50% less KB taken
 - Fury (2)
 - Strength (3)
-- Beskar (2)
+- Beskar (3)
 - Cortosis (1)
 - Blast Armor
 - Physical Resist
 - Sense Immunity
-- Anti-Mind Trick (2)"
+- Anti-Mind Trick (2)
+- Tracking Beacon"
