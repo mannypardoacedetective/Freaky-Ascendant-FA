@@ -2,7 +2,7 @@
 
 classinfo
 {
-	name	"asg5_armorer"
+	name	"asg5_Armorer"
 	weapons		WP_SABER|WP_MELEE
 	MBClass	MB_CLASS_MANDALORIAN
 	maxarmor	200
