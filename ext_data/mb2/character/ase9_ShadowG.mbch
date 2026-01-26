@@ -81,7 +81,7 @@ mbPoints	10
 	c_att_skill_7	MB_ATT_ARMOUR
 	c_att_names_7	"Armor"
 	c_att_ranks_7	1,1
-	c_att_descs_7 "50, 80."
+	c_att_descs_7	"50, 80."
 }
 
 WeaponInfo0
@@ -138,6 +138,7 @@ Highly mobile saberists that can choose between versatile one-life or specialize
 - Dexterity (3)
 - Healing (1)
 - Force Block/Focus (2)"
+
 
 
 
