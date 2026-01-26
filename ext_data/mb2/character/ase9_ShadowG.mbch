@@ -17,7 +17,7 @@ ClassInfo
 	
 	maxhealth	100
 	maxarmor	25
- rankArmor 80
+ rankArmor 50,80
  	basespeed 	230
 	saberdamage	400
 
@@ -80,7 +80,7 @@ mbPoints	10
 	
 	c_att_skill_7	MB_ATT_ARMOUR
 	c_att_names_7	"Armor (80)"
-	c_att_ranks_7	2
+	c_att_ranks_7	1,1
 }
 
 WeaponInfo0
@@ -137,5 +137,6 @@ Highly mobile saberists that can choose between versatile one-life or specialize
 - Dexterity (3)
 - Healing (1)
 - Force Block/Focus (2)"
+
 
 
