@@ -37,7 +37,7 @@ ClassInfo
 	uishader			"gfx/hud/fa_icons/mb2_icon_t3m4"	
 	model_1			"t7-o1"
 	skin_1			"default"
-	uishader		"models/players/t7-01/icon_default"
+	uishader_1		"models/players/t7-01/icon_default"
 	uioverlay "gfx/icons/tactician"
 
 	isCustomBuild	1
