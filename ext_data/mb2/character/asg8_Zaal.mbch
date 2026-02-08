@@ -72,7 +72,7 @@ MissileHitDroidEffect 	"effects/sonic_pistol/k_wall_impact"
 	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"   	
 	FlashSound0			"sound/weapons/kotor/fire_sonic.wav"
 	CustomAmmo           144
-	clipsize             28
+	clipsize             14
 	ReloadTimeModifier 	1.25
 	FPMult     			1.5
 	rateMod 1.25
