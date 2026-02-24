@@ -28,7 +28,7 @@ ClassInfo
 	saber2_1			vibrosword_zaalbar_legends
 	saberstyle_1 		SS_DUAL
 	
-	saber1_2			vibrostaff_zaalbar_legends
+	saber1_2			vibrodoubleblade_zaalbar_legends
 	saberstyle_2		SS_STAFF
 
 saberDamageStyle SS_MEDIUM,240|SS_DUAL,260
@@ -72,7 +72,7 @@ MissileHitDroidEffect 	"effects/sonic_pistol/k_wall_impact"
 	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"   	
 	FlashSound0			"sound/weapons/kotor/fire_sonic.wav"
 	CustomAmmo           144
-	clipsize             28
+	clipsize             14
 	ReloadTimeModifier 	1.25
 	FPMult     			1.5
 	rateMod 1.25
