@@ -83,7 +83,7 @@ WeaponInfo1
 	NewViewModel  "models/weapons2/773firepuncher/773firepuncher.md3"
 	NewBarrelModel "models/weapons2/773firepuncher/773firepuncher_barrel.md3"
 	Icon  "gfx/hud/w_icon_773firepuncher"
-	AltFlashSound0 		 	"sound/weapons/disruptor/fire.mp3"
+	AltFlashSound0 		 	"sound/weapons/caradunesniper/fire.mp3"
 	AltMissileEffect	"Blaster/Shot04r"
 	WeaponName  "Cara's Sniper Rifle"
 	primFireEnabled 0
