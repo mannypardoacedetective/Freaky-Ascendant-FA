@@ -108,8 +108,9 @@ WeaponInfo1
 	CustomAmmo      15
         clipsize 3
 	velocityMod 1.2
-        damageMod 1.5
+        damageMod 1.25
         ratemod 0.3
+		ReloadTimeModifier 	2
 	AltFireEnabled 		0
 	hasAnimOverrides 1
 	animReadyRun TORSO_WEAPONIDLE2
@@ -155,11 +156,12 @@ A Jetboots-equipped, dexterous dual pistoleer with Quickdraw capabilities.
 -- 10% more ROF
 - Quickdraw (Blaster Pistol 3)
 -- 20% more velocity
--- 150% more Dmg
+-- 125% more Dmg
 -- Knockdown on hit
 -- Mag reload
 -- (6 shots per round)
 -- 70% faster swapping
+-- 200% slower Reload
 - Stun Gauntlet (Stun Baton 3)
 -- Electrifies/Stuns/Tracks on hit
 -- 250% slower ROF

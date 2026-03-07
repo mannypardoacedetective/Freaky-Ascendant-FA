@@ -37,7 +37,7 @@ ClassInfo
 	
 	rateoffire_melee 1.50
 	rateoffire		1.00
-	classflags	CFL_RUNFASTMELEE|CFL_BUBBLESHIELD
+	classflags	CFL_BUBBLESHIELD
 }
 WeaponInfo0
 {
@@ -82,5 +82,4 @@ description	"Trade Federation Leader [Mandalorian]
 - Rally
 - Tracking Beacon
 - Gun Kick ^3[CS3]
-- Dash (2) ^3[CS4]
-- Faster Melee Movement"
+- Dash (2) ^3[CS4]"

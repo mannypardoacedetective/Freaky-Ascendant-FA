@@ -5,8 +5,8 @@ ClassInfo
 	name			"asg7_Greef"
 	weapons			WP_MANDO_PISTOL|WP_MELEE|WP_FRAG_NADE
 	attributes		MB_ATT_FRAGS,2|MB_ATT_MANDO_PISTOL,3|MB_ATT_HEALING,1|MB_ATT_AMMO,3|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_BLAST_ARMOUR|MB_ATT_DISP_HEALTH,1|MB_ATT_DISP_ARMOR,1|MB_ATT_DISP_FORCE,1|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4|MB_ATT_USE_DISTANCE,10|MB_ATT_DEXTERITY,1
-	maxhealth	125
-	maxarmor		125
+	maxhealth	100
+	maxarmor		100
 	damageGiven	1.00
 	baseSpeed 257
 	modelscale	1.01
@@ -59,11 +59,11 @@ WeaponInfo0
 	PowerupShotEffect	"Blaster/Shot04r"
 	ChargeEffect		"gfx/effects/bryarfrontflash"
 	MissileMissEffect "effects/blaster/Impact_Wall01R"
-	customammo 		950
+	customammo 		960
 	Clipsize			60
-	FPMult         	1.1
+	FPMult         	1.15
     damageMod       1.00
-	ratemod			0.90
+	ratemod			1.00
 }
 
 description	"Greef Karga 
@@ -73,8 +73,7 @@ A speedy Dual Pistol wielder and grenadier with multiple forms of healing.
 ^2Weaponry:
 - Melee
 - Greef's Dual Blaster Pistols (WESTARs 3)
--- +10% FP Damage
--- +10% Rate of Fire
+-- +15% FP Damage
 - Frag Grenades (2)
 
 ^6Inventory:
