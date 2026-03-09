@@ -6,9 +6,9 @@ ClassInfo
 
 	maxhealth		60
 	maxarmor        20	
-	attributes		MB_ATT_EE4,1|MB_ATT_ASSEMBLE,2|MB_ATT_AMMO,3|MB_ATT_CLOAK|MB_ATT_FUEL,3|MB_ATT_FUELREGEN,1
+	attributes		MB_ATT_EE4,1|MB_ATT_ASSEMBLE,2|MB_ATT_AMMO,3|MB_ATT_CLOAK|MB_ATT_FUEL,3|MB_ATT_FUELREGEN,1|MB_ATT_FP_SABER_DEFENSE,1
 	modelscale  	1
-	forcepowers		FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,2
+	forcepowers		FP_SABER_OFFENSE,2
 	saber1		kotor_longsword
 	saberstyle	SS_MEDIUM
 	rankHealth	75,100,110
