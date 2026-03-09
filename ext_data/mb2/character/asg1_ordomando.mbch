@@ -16,6 +16,7 @@ ClassInfo
 	//extralives		2
 	
 	rateOfFire  	1
+	knockbacktaken	0.8
 	
 	resource	RESOURCE_FUEL
 	forcepool	45
@@ -60,7 +61,7 @@ ClassInfo
 	special2 	EAS_HI_DASH
 	special3	EAS_HI_CLOAK
 	classNumberLimit	4
-	classflags		CFL_STRONGAGAINSTPHYSICAL
+	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_HEAVYMELEE
 	
 	damageTaken     0.95
 	
@@ -277,7 +278,7 @@ description	"Clan Ordo Mandalorian
 A Mandalorian who followed Mandalore the Preserver, equipped with a Longsword, Cloaking Field and Assault Rifle.
 
 ^2Weaponry:
-- Melee
+- Heavy Melee
 - Longsword
 -- Yellow Style Only
 -- Saber Defense (1)
@@ -288,4 +289,6 @@ A Mandalorian who followed Mandalore the Preserver, equipped with a Longsword, C
 ^8Attributes:
 - Cloak ^3[CS3]
 - Assemble (2)
-- Physical Resist"
+- Physical Resist
+- 20% less Kb Taken
+- 25% slower Skill Cd"
