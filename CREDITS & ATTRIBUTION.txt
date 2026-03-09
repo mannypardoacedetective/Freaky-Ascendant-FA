@@ -17,6 +17,8 @@ lord_kallig
 obiwan_tfu
 satele_tor
 satele_kotet
+Cara Dune
+Greef Karga
 
 /Asajj Ventress (Bounty Hunter)/
 Author: Kualan
