@@ -263,6 +263,10 @@ WeaponInfo0
 	WeaponName		"Mandalorian Assault Rifle"
 	FlashSound0		"sound/weapons/kotor/fire_med.wav"
 	damagemod		1.1
+	FlashSound0			"sound/weapons/kotor_carbine/fire.wav"
+	altFlashSound0			"sound/weapons/kotor_carbine/fire.wav"
+	MuzzleEffect  			"Blaster/MuzzleFlash01R"
+	MissileEffect 			"Blaster/Shot02R"
 }
 description	"Clan Ordo Mandalorian
 
