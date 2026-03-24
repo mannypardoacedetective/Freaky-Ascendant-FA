@@ -8,16 +8,20 @@ ClassInfo
 	MBClass				MB_CLASS_COMMANDER
 	weapons				WP_MELEE|WP_BLASTER_PISTOL
 
-	attributes			MB_ATT_DODGE,2|MB_ATT_RALLY,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_DEXTERITY,1|MB_ATT_TRACKING_BEACON
+	classflags			CFL_STATVIEWER
+
+	attributes			MB_ATT_DODGE,2|MB_ATT_RALLY,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_DEXTERITY,1|MB_ATT_TRACKING_BEACON|MB_ATT_LIGHTS_BEACON
 
 	maxhealth			100
+	rankhealth			110,120
 	maxarmor			5
+	rankarmor			10
 	hackRate			.70
 
-	holdables			HI_BINOCULARS|HI_SENTRY_GUN|HI_SEEKER|HI_MEDPACK
+	holdables			HI_SENTRY_GUN|HI_SEEKER|HI_MEDPAC
 	classflags			CFL_STATVIEWER
 	
-	WP_Mandopistolflags	HELD_POISON|HELD_DISRUPTIFY|HELD_FLAME|HELD_PULSE|HELD_STUN|HELD_ALTRELOAD|HELD_TRACKING
+	WP_Mandopistolflags HELD_POISON|HELD_DISRUPTIFY|HELD_FLAME|HELD_PULSE|HELD_STUN|HELD_ALTRELOAD|HELD_TRACKING
 	WP_Melee			HELD_LOWDAMAGE|HELD_SPEED
 
 	basespeed			190
@@ -34,82 +38,6 @@ model_1		"imptrench"
 skin_1		"default"
 uishader_1	"models/players/imptrench/mb2_icon_default"
 
-model_2		"imperial"
-skin_2		"isb"
-uishader_2	"models/players/imperial/mb2_icon_isb"
-
-model_3		"imptrench"
-skin_3		"isb"
-uishader_3	"models/players/imptrench/mb2_icon_isb"
-
-model_4		"imperial_fml"
-skin_4		"default"
-uishader_4	"models/players/imperial_fml/mb2_icon_default"
-
-model_5		"imperial"
-skin_5		"lieutenant"
-uishader_5	"models/players/imperial/mb2_icon_lieutenant"
-
-model_6		"imperial"
-skin_6		"commander"
-uishader_6	"models/players/imperial/mb2_icon_commander"
-
-model_7		"imperial_fml"
-skin_7		"isb"
-uishader_7	"models/players/imperial_fml/mb2_icon_isb"
-
-model_8		"imperial"
-skin_8		"default"
-uishader_8	"models/players/imperial/mb2_icon_default"
-
-model_9		"imperial"
-skin_9		"officer2"
-uishader_9	"models/players/imperial/mb2_icon_officer2"
-
-model_10	"imperial"
-skin_10		"tan"
-uishader_10	"models/players/imperial/mb2_icon_tan"
-
-model_11	"imperial"
-skin_11		"navy"
-uishader_11	"models/players/imperial/mb2_icon_navy"
-
-model_12	"imperial"
-skin_12		"blue"
-uishader_12	"models/players/imperial/mb2_icon_blue"
-
-model_13	"imperial"
-skin_13		"lieutenant"
-uishader_13	"models/players/imperial/mb2_icon_lieutenant"
-
-model_14	"imperial"
-skin_14		"commander"
-uishader_14	"models/players/imperial/mb2_icon_commander"
-
-model_15	"imperial"
-skin_15		"army"
-uishader_15	"models/players/imperial/mb2_icon_army"
-
-model_16	"imperial_fml"
-skin_16		"daala"
-uishader_16	"models/players/imperial_fml/mb2_icon_daala"
-
-model_17	"imperial_fml"
-skin_17		"officer"
-uishader_17	"models/players/imperial_fml/mb2_icon_officer"
-
-model_18	"imperial_fml"
-skin_18		"aralani"
-uishader_18	"models/players/imperial_fml/mb2_icon_aralani"
-
-model_19	"imperial_fml"
-skin_19		"army"
-uishader_19	"models/players/imperial_fml/mb2_icon_army"
-
-model_20	"imptrench"
-skin_20		"lt"
-uishader_20	"models/players/imptrench/mb2_icon_lt"
-
 	modelscale			1
 	uioverlay_r 		"gfx/icons/tactician"
 	uioverlay_l 		"gfx/2d/hud/hlp_defend"
@@ -117,7 +45,7 @@ uishader_20	"models/players/imptrench/mb2_icon_lt"
 	special1			EAS_HI_DODGE		
 	special2			EAS_HI_SENTRY_GUN	
 	special3			EAS_HI_SEEKER		
-	special4			EAS_HI_MEDPACK		
+	special4			EAS_HI_MEDPAC		
 
 	gloatAnim			BOTH_TALKCOMM1START
 	flourishAnim		TORSO_HANDSIGNAL3
@@ -130,7 +58,7 @@ c_att_names_0		"SE-1C Blaster Pistol"
 c_att_ranks_0		0,0,4
 
 c_att_skill_1		MB_ATT_BLASTER
-c_att_names_1		"E11"
+c_att_names_1		"E-11 Blaster Rifle"
 c_att_ranks_1		2,2
 
 c_att_skill_2		MB_ATT_STUN_BATON
@@ -142,11 +70,11 @@ c_att_names_3		"Reinforcement"
 c_att_ranks_3		16
 c_att_descs_3		"One Granted By Default"
 
-c_att_skill_4		MB_ATT_SONIC_NADE
+c_att_skill_4		MB_ATT_SONIC_DETONATOR
 c_att_names_4		"Sonic Grenade"
 c_att_ranks_4		6
 
-c_att_skill_5		MB_ATT_CONC_NADE
+c_att_skill_5		MB_ATT_MICRO_GRENADES
 c_att_names_5		"Flash Bang"
 c_att_ranks_5		4
 
@@ -174,7 +102,7 @@ c_att_descs_10		"Protect 1"
 c_att_skill_11		MB_ATT_MANDO_PISTOL
 c_att_names_11		"Disruptor Pistol"
 c_att_ranks_11		10
-c_att_descs_11		"Hitscan, Stuns/Tracks/Ignites/Electrifies/Poisons, 1 Shot, +400% Mag Reload, -80% Damage"
+c_att_descs_11		"Hitscan, Stuns/Burns/Electrifies/Poisons/Tracks, Low Ammo and Damage."
 
 c_att_skill_12		MB_ATT_DODGE
 c_att_names_12		"Dodge"
@@ -206,7 +134,7 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace			WP_CONC_NADE
+	WeaponToReplace			MB_ATT_MICRO_GRENADES
 	WeaponBasedOff			WP_CONC_NADE
 	NewWorldModel			"models/weapons/Grenade_Concussion/model.glm"
 	NewViewModel			"models/weapons/Grenade_Concussion/viewmodel.md3"
@@ -230,8 +158,8 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_imp_pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	WeaponName			"Disruptor Pistol"
-	clipSize			1
-	customAmmo			9
+	clipSize			2
+	customAmmo			18
 	primHitscanShot		1
 	primHitscanTracer	10
 	primGore			1
@@ -249,16 +177,15 @@ WeaponInfo2
 	ChargeEffect		"gfx/effects/greenFrontFlash"
 	OverchargeEffect	"Blaster/MuzzleCharge01G"
 	PowerupShotEffect	"Blaster/Shot04G"
-
-	hasAnimOverrides	1
-	animReadyRun		BOTH_WESTARM5_IDLE
-	animReady			BOTH_WESTARM5_IDLE
-	animReadyWalk		BOTH_WESTARM5_READY
-	animReadyNoAmmo		BOTH_WESTARM5_ATTACK
-	animAttackRun		BOTH_WESTARM5_ATTACK
-	animAttack			BOTH_WESTARM5_ATTACK
-	animAttackWalk		BOTH_WESTARM5_ATTACK
-	altFireEnabled		0
+	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONIDLE2
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2
+	FPChargeMult	1.2
 }
 
 description	"Imperial Officer
@@ -269,6 +196,7 @@ A customizable multilife Imperial Officer with several gadgets who can specializ
 - Melee
 - SE-14C Blaster Pistol (2)
 -- +5% Rate of Fire
+-- Less Clip Ammo
 
 ^6Inventory:
 - Binoculars
@@ -282,7 +210,7 @@ A customizable multilife Imperial Officer with several gadgets who can specializ
 - Logistical Insight (Ally Stat Viewer)
 - Inspiring Voice (Lights Beacon)
 - Desk Jockey (-50% Melee Damage)
-- Cowardice (+15% Movement Speed)
+- Cowardice (+15% Melee Movement Speed)
 - Tech Smart (+30% Hack Speed)
 - High Command (Tracking Beacon)
 
