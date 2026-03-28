@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name				"h3_CloneLead"
+	name				"asg3_CloneLead"
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit  	1
 

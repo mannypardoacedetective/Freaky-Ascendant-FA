@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name  			"v1_ImpComm"
+	name  			"ase1_ImpComm"
 	weapons 		WP_MELEE|WP_BLASTER_PISTOL
 	attributes  	MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_CCTRAINING,2
 	MBClass			MB_CLASS_SOLDIER
