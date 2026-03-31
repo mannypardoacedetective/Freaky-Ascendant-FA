@@ -32,7 +32,7 @@ ClassInfo
 	forcepool	80
  knockbackTaken 0.85
  saberDamage 80
- saberSpecialDamage 2
+ saberSpecialDamage 3
 	saber1		electrostaff_magnaguard
 	sabercolor	5
 	saberstyle	SS_STAFF
@@ -178,7 +178,7 @@ Mobile hybrids with high dueling stats and Armor Regen.
 -- 3% more Kb
 -- 6% less Reach
 -- 66% less Dmg
--- 200% Special Damage
+-- 200% more Special damage.
 - Modified E-5 Blaster Rifle (EE-3 3)
 
 ^5Powers:
@@ -189,7 +189,7 @@ Mobile hybrids with high dueling stats and Armor Regen.
 - Dexterity (2)
 - Beskar (3)
 - Battery (0)
-- Armor Regen: 1/s
+- Armor Regen (1)
 - Force Block (1)
 - Anti-Mind Trick (2)
 - Assemble (3)
