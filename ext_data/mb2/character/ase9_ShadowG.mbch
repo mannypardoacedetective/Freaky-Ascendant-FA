@@ -26,8 +26,8 @@ ClassInfo
 	saberdamage	400
 	saberSpecialDamage 1.25
 
-	saberstyle	SS_DESANN|SS_TAVION
-	saberDamageStyle SS_TAVION,140|SS_DESANN,400
+	saberstyle	SS_DESANN|SS_TAVION|SS_STAFF
+	saberDamageStyle SS_TAVION,140|SS_DESANN,400|SS_STAFF,260
 	saber1		lightsaber_pike_legends
 	sabercolor 0
 	APmultiplier 1.05
