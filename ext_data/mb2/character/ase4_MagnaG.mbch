@@ -165,11 +165,11 @@ altFlashSound0 "sound/weapons/upl/fire_rocket.wav"
 
 description 	"IG-100 MagnaGuard 
 
-Mobile hybrids that specialize in isolating and disabling opponents.
+Mobile hybrids with disabling weaponry.
 
 ^2Weaponry:
 - Melee
-- MagnaGuard Electrostaff (Staff Saber)
+- MagnaGuard Electrostaff (Shocks on hit)
 -- Saber Defense (3)
 -- Blaster Defense (1)
 --- BP-Free Jumps
