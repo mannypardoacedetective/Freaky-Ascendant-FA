@@ -66,7 +66,7 @@ WeaponInfo0
 	ChargeSound	"sound/weapons/mando_rifle/charge.wav"
 	WeaponName	"Overcharged DL-44 Heavy Blaster Pistol"
 	//AltMuzzleEffect "acp_array/muzzle_flash" (noisy but cool)
-	AltMuzzleEffect "mini_concussion/muzzle_flash"
+	AltMuzzleEffect "concussion/muzzle_flash"
 	ChargeEffect	"gfx/effects/beamr_frontflash"
 	PowerupShotEffect	"acp_array/shot"
 	clipSize 21
