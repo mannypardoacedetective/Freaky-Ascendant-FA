@@ -36,7 +36,6 @@ naga_sadow_sword_v2
 	//bladeEffect	efx/effects/sith_sword_lightning.efx
 	blockEffect	effects/force/lightning.efx
 	hitPersonEffect	effects/force/lightning.efx
-	hitOtherEffect	effects/demp2/wall_impact.efx
 	bowAnim		BOTH_FORCE_PROTECT_FAST
 	flourishAnim	BOTH_T1_TR_TL
 	gloatAnim	BOTH_FORCE_RAGE
@@ -78,7 +77,6 @@ naga_sadow_sword_v2_duals
 	//bladeEffect	efx/effects/sith_sword_lightning.efx
 	blockEffect	effects/force/lightning.efx
 	hitPersonEffect	effects/force/lightning.efx
-	hitOtherEffect	effects/demp2/wall_impact.efx
 	bowAnim		BOTH_FORCE_PROTECT_FAST
 	flourishAnim	BOTH_T1_TR_TL
 	gloatAnim	BOTH_FORCE_RAGE
