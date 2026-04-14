@@ -163,9 +163,7 @@ WeaponInfo2
 	MissileModel 			"models/weapons2/fraggrenade/thermal_proj.md3"
 	MissileMissEffect	"Grenades/EXP_Explosion"
 	missileHitHumanEffect		"Grenades/EXP_Explosion"
-	missileHitDroidEffect		"Grenades/EXP_Explosion"
- 	MissileEffect "repeater/projectile"
-	
+	missileHitDroidEffect		"Grenades/EXP_Explosion"	
 	Icon						"gfx/hud/w_icon_fraggrenade"
 	WeaponName	"Conflagrine-14 Infused Grenade"
 	damageMod 0.65
