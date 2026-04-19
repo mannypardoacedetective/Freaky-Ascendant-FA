@@ -28,61 +28,69 @@ ClassInfo
 	uioverlay_l "gfx/icons/frontline"
 	uioverlay_r "gfx/icons/infantry"
 	
-model			"reborn"
-skin			"boss"
-uishader		"models/players/reborn/mb2_icon_boss"
+	model			"reborn"
+	skin			"boss"
+	uishader		"models/players/reborn/mb2_icon_boss"
+	
+	model_1			"reborn"
+	skin_1			"default"
+	uishader_1		"models/players/reborn/mb2_icon_default"
+	
+	model_2			"reborn"
+	skin_2			"forceuser"
+	uishader_2		"models/players/reborn/mb2_icon_forceuser"
+	
+	model_3			"reborn"
+	skin_3			"acrobat"
+	uishader_3		"models/players/reborn/mb2_icon_acrobat"
+	
+	model_4			"reborn"
+	skin_4			"fencer"
+	uishader_4		"models/players/reborn/mb2_icon_fencer"
+	
+	model_5		"reborn_female"
+	skin_5 		"blue" 
+	uishader_5	"models/players/reborn_female/mb2_icon_blue"
+	
+	model_6		"shadowtrooper"
+	skin_6 		"default" 
+	uishader_6	"models/players/shadowtrooper/mb2_icon_default"
 
-model_1			"reborn"
-skin_1			"default"
-uishader_1		"models/players/reborn/mb2_icon_default"
+	model_7		"reborn_new"
+	skin_7		"default"
+	uishader_7	"models/players/reborn_new/mb2_icon_default"
 
-model_2			"reborn"
-skin_2			"forceuser"
-uishader_2		"models/players/reborn/mb2_icon_forceuser"
+	model_8		"cultist"
+	skin_8		"red"
+	uishader_8	"models/players/cultist/mb2_icon_red"
+	
+	model_9		 "cultist"
+	skin_9		"default"
+	uishader_9	"models/players/cultist/mb2_icon_default"
+	
+	model_10		 "cultist"
+	skin_10		"brown"
+	uishader_10	"models/players/cultist/mb2_icon_brown"
 
-model_3			"reborn"
-skin_3			"acrobat"
-uishader_3		"models/players/reborn/mb2_icon_acrobat"
+	model_11		"cultist_female" 					
+	skin_11		"blue"					
+	uishader_11	"models/players/cultist_female/mb2_icon_blue"
+	
+	model_12		"reborn"
+	skin_12		"Darkjedi"
+	uishader_12	"models/players/reborn/mb2_icon_darkjedi"
 
-model_4			"reborn"
-skin_4			"fencer"
-uishader_4		"models/players/reborn/mb2_icon_fencer"
-
-model_5		"reborn_female"
-skin_5 		"blue" 
-uishader_5	"models/players/reborn_female/mb2_icon_blue"
-
-model_6		"shadowtrooper"
-skin_6 		"default" 
-uishader_6	"models/players/shadowtrooper/mb2_icon_default"
-
-model_7		"reborn_new"
-skin_7		"default"
-uishader_7	"models/players/reborn_new/mb2_icon_default"
-
-model_8		 "cultist"
-skin_8		"default"
-uishader_8	"models/players/cultist/mb2_icon_default"
-
-model_9		"cultist_female" 					
-skin_9		"blue"					
-uishader_9	"models/players/cultist_female/mb2_icon_blue"
-
-model_10		"reborn"
-skin_10		"Darkjedi"
-uishader_10	"models/players/reborn/mb2_icon_darkjedi"
-
-model_11		"sith_assassin"
-skin_11		"default"
-uishader_11	"models/players/sith_assassin/mb2_icon_default"
-
-model_12		"sith_assassin"
-skin_12		"master"
-uishader_12	"models/players/sith_assassin/mb2_icon_master"
-
-model_13		"sith_eradicator"
-skin_13		"default"
-uishader_13	"models/players/sith_eradicator/mb2_icon_default"
+	model_13		"sith_assassin"
+	skin_13		"default"
+	uishader_13	"models/players/sith_assassin/mb2_icon_default"
+	
+	model_14		"sith_assassin"
+	skin_14		"master"
+	uishader_14	"models/players/sith_assassin/mb2_icon_master"
+	
+	model_15		"sith_eradicator"
+	skin_15		"default"
+	uishader_15	"models/players/sith_eradicator/mb2_icon_default"
 		
 	saber1			saber_reborn_mp
 	sabercolor		0
