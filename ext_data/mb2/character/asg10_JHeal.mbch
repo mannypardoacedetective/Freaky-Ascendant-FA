@@ -15,7 +15,7 @@ ClassInfo
 	maxhealth		105
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	modelscale       0.97
 	speed 1
 	saberThrowDamage 40
@@ -151,7 +151,7 @@ A Jedi with passive healing and team Force healing powers.
 
 ^8Attributes:
 - 50% slower skill CD
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)
 
 ^3Abilities:
