@@ -15,7 +15,7 @@ ClassInfo
 	maxhealth		100
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
  maxarmor  45
 
 	resource RESOURCE_FORCE
@@ -81,5 +81,5 @@ A tanky support class that prioritizes a strong defense and gunner assistance.
 - Protect (2) ^3[CS4]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)"
