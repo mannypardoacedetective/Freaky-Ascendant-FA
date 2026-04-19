@@ -10,8 +10,8 @@ Classes
 	class2	"h3_Clone"
 	class3	"h5_CloneJet"
 	class4	"h7_Scavenge"
-	class5	"h9_JYoung"
-	class6	"h10_JForce"
+	class5	"asg9_JYoung"
+	class6	"asg10_JForce"
 }
 
 SubclassesForClass1
