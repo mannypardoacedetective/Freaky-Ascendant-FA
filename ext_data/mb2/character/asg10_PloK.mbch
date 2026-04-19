@@ -17,7 +17,7 @@ ClassInfo
 	maxhealth	140
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	skilltimermod 1.25
 	rateOfFire_Melee .9
 	forcepool 130
@@ -193,5 +193,5 @@ A hearty Jedi with the ability to manipulate the elements.
 ^8Attributes:
 - 25% slower Skill Cd
 - Dexterity (1)
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block/Focus (2)"
