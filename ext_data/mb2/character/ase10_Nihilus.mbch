@@ -17,7 +17,7 @@ ClassInfo
 	maxhealth			180
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool			140
  resource RESOURCE_BATTERY
 	forceregen   2.5
@@ -72,7 +72,7 @@ An offensive support Sith with crowd control abilities.
 
 ^8Attributes:
 - Starting HP: 150
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Battery Recharge (2)
 - Force Block (3)
 - Force Focus (2)
