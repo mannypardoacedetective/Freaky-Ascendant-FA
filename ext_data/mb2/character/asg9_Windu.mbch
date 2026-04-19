@@ -35,7 +35,7 @@ ClassInfo
 	maxhealth		140
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	speed			1.025
 	
 	uioverlay "gfx/icons/frontline"
@@ -85,5 +85,5 @@ A powerful, versatile Jedi with an increased Lightsaber chain limit and a variet
 
 ^8Attributes:
 - 25% less Kb Taken
-- Healing (1)
+- Heal capped at 35hp
 - Force Block/Focus (2)"
