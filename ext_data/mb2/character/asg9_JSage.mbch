@@ -24,7 +24,7 @@ Classinfo
 	maxhealth			60
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool			75
 	forceregen			1.45			
  rateOfFire_Melee .9
@@ -114,6 +114,7 @@ A glass cannon duelist and Force user with exceptional offensive and evasive ski
 - Aerial Force Regen
 - Force Block (3)
 - Force Focus (2)
+- Heal capped at 35hp
 
 ^3Abilities:
 - Flipkick (1) ^3[Contact Jump]"
