@@ -14,7 +14,7 @@ ClassInfo
 	maxhealth	135
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool   120
  forceregen  1.04
  rateOfFire_Melee .9
@@ -119,7 +119,7 @@ A duelist unmatched in his field.
 - Speed (3) ^3[CS3]
 
 ^8Attributes:
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (2)
 - Force Focus (1)
 - Aerial Force Regen"
