@@ -14,7 +14,7 @@ ClassInfo
 	maxhealth	80
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	modelscale	0.95
 	speed .94
 	
