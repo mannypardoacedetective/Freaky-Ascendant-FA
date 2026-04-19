@@ -1,0 +1,45 @@
+name "ASC_Live_E"
+
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+
+Classes
+{
+	class1	"v1_ImpSold"
+	class2	"v3_FOMarsh"
+	class3	"v6_ScoutTr"
+	class4	"v8_GamoPig" 
+	class5	"ase9_SAcolyte"
+	class6	"v10_SForce"	
+}
+
+SubclassesForClass1
+{
+	Subclass1	"ase1_ImpComm"
+}
+
+SubclassesForClass2
+{
+	Subclass1	"ase4_BX"
+}
+
+SubclassesForClass3
+{
+	Subclass1	"v6_Tusk"
+}
+
+SubclassesForClass4
+{
+	Subclass1 	"ase8_SBD"	
+}
+
+SubclassesForClass5
+{
+	Subclass1	"ase9_ShadowG"
+}
+
+SubclassesForClass6
+{
+	Subclass1	"ase10_PalpPlagNovel"
+}
