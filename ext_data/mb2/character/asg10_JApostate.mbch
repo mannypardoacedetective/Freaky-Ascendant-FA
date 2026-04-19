@@ -14,7 +14,7 @@ ClassInfo
 	maxhealth			115
 	healthRegenAmount 1
 	healthRegenRate 1500
-	healthRegenCap	25
+	healthRegenCap	35
 	forcepool   150
 	forceregen  1.5
 	speed				0.95
@@ -90,6 +90,6 @@ A Jedi who minimizes Lightsaber skills in favor of high Force talent.
 - Miraluka Vision (3)
 - Sense Immunity
 - Anti-Mind Trick (2)
-- Heal capped at 25hp
+- Heal capped at 35hp
 - Force Block (4)
 - Force Focus (3)"
