@@ -6,18 +6,17 @@ ClassInfo
 	saber1				Vibro_bx_legends
 	saberstyle			SS_TAVION|SS_MEDIUM
 	attributes			MB_ATT_AMMO,3|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_FLIPKICK,1|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_DEXTERITY,3|MB_ATT_BESKAR,3|MB_ATT_TRACKING_BEACON|MB_ATT_QUICKTHROW,3
-	classflags			CFL_HEAVYMELEE|CFL_BPFREEJUMPS|CFL_DISMEMBERFRAGILE
+	classflags			CFL_HEAVYMELEE|CFL_BPFREEJUMPS|CFL_DISMEMBERFRAGILE|CFL_SEEING_STEALTH
 	classNumberLimit 	3
 	knockbackTaken		0.8
 	modelscale 	        1.035
-	basespeed	214
-	rankbasespeed	235,260
-	maxhealth	110
-	maxarmor	80
-	damageTaken .75
+	basespeed	255
+	maxhealth	100
+	maxarmor	100
 	
 	resource		RESOURCE_FORCE
 	forcepool	75
+	rankForcePool 100,125
 	forcepowers	FP_LEVITATION,1
 	forceregen	2.5
 	
@@ -26,12 +25,12 @@ ClassInfo
 	rankSaberMaxChain 4,5,6
 	CSmultiplier	1
 	rankCS 1.05,1.1,1.15
-	ASmultiplier	0.96
-	rankAS	1.02,1.08,1.14
+	ASmultiplier	0.95
+	rankAS	1.05,1.1,1.15
 	BPmultiplier	0.5
 	rankBP 	0.8,1,1.4
 	skilltimermod 1
-	rankSTM   .8,0.75
+	rankSTM   .9,0.75
 	
   	uioverlay_r "gfx/icons/infantry"
 	uioverlay_l "gfx/icons/spec_infantry"
@@ -41,6 +40,7 @@ ClassInfo
 	special2HUD HUD_FIRENADE
 
 WP_ProjFlags HELD_ALTRELOAD|HELD_DISRUPTIFY
+WP_EE4Flags HELD_ALTRELOAD
 
 	model			"bxdroid"
 	skin			"default"
@@ -101,15 +101,15 @@ c_att_names_0	"E-5 Blaster Rifle (EE-4)"
 c_att_ranks_0	2,5,8
 c_att_skill_1	MB_ATT_BP_MULTIPLIER
 c_att_names_1	"Saber BP (.8/1)"
-c_att_ranks_1	2,5
+c_att_ranks_1	3,5
 c_att_skill_2	MB_ATT_AS_MULTIPLIER
-c_att_names_2	"Saber AS (1.02/1.08)"
+c_att_names_2	"Saber AS (1.05/1.1)"
 c_att_ranks_2	2,3
-c_att_skill_3	MB_ATT_BASESPEED
-c_att_names_3	"Speed (235/260)"
-c_att_ranks_3	3,5
+c_att_skill_3	MB_ATT_POWER
+c_att_names_3	"Resource (100/125)"
+c_att_ranks_3	4,4
 c_att_skill_4	MB_ATT_STM_MULTIPLIER
-c_att_names_4	"Skill CD (.8/.75)"
+c_att_names_4	"Skill CD (.9/.75)"
 c_att_ranks_4	3,5
 
 //infiltrator
@@ -118,13 +118,13 @@ c_att_names_15	"Improved Hydraulics (Jump)"
 c_att_ranks_15	0,5,0
 c_att_skill_16	MB_ATT_BP_MULTIPLIER
 c_att_names_16	"Saber BP (.8/1/1.4)"
-c_att_ranks_16	1,2,5
+c_att_ranks_16	2,2,5
 c_att_skill_17	MB_ATT_AS_MULTIPLIER
-c_att_names_17	"Saber AS (1.02/1.08/1.14)"
-c_att_ranks_17	1,2,3
+c_att_names_17	"Saber AS (1.05/1.1/1.15)"
+c_att_ranks_17	2,2,3
 c_att_skill_18	MB_ATT_CS_MULTIPLIER
 c_att_names_18	"Saber CS (1.05/1.1/1.15)"
-c_att_ranks_18	1,1,3
+c_att_ranks_18	2,1,3
 c_att_skill_19	MB_ATT_SABER_MAXCHAIN
 c_att_names_19	"Saber Chain Limit (4/5/6)"
 c_att_ranks_19	1,1,1
@@ -136,20 +136,17 @@ c_att_names_21	"Thermal Vision"
 c_att_ranks_21	5,0,0
 c_att_skill_22	MB_ATT_FRAGS
 c_att_names_22	"Smokes Grenades"
-c_att_ranks_22	0,0,0
+c_att_ranks_22	0
 c_att_descs_22 "Quickthrow only ^3[CS4]"
 c_att_skill_23	MB_ATT_EE4
 c_att_names_23	"E-5 Blaster (EE-4)"
 c_att_ranks_23	3
-c_att_skill_24	MB_ATT_BASESPEED
-c_att_names_24	"Speed (235/260)"
+c_att_skill_24	MB_ATT_STM_MULTIPLIER
+c_att_names_24	"Skill CD (.9/.75)"
 c_att_ranks_24	1,1
-c_att_skill_25	MB_ATT_STM_MULTIPLIER
-c_att_names_25	"Skill CD (.8/.75)"
-c_att_ranks_25	1,1
-c_att_skill_26	MB_ATT_SPY_DISGUISE
-c_att_names_26 "Disguise"
-c_att_ranks_26 0,0,1
+c_att_skill_25	MB_ATT_SPY_DISGUISE
+c_att_names_25 "Disguise"
+c_att_ranks_25 0,1,2
 
 //assassin
 c_att_skill_30 MB_ATT_PROJECTILE_RIFLE
@@ -158,14 +155,14 @@ c_att_ranks_30 15
 c_att_skill_31 MB_ATT_EE4
 c_att_names_31 "E-5 Blaster Rifle (EE-4)"
 c_att_ranks_31 2,8
-c_att_skill_32	MB_ATT_BASESPEED
-c_att_names_32	"Speed (235/260)"
-c_att_ranks_32	3,2
+c_att_skill_32	MB_ATT_POWER
+c_att_names_32	"Resource (100/125)"
+c_att_ranks_32	2,3
 c_att_skill_33	MB_ATT_STM_MULTIPLIER
-c_att_names_33	"Skill CD (.8/.75)"
+c_att_names_33	"Skill CD (.9/.75)"
 c_att_ranks_33	3,2
 c_att_skill_34	MB_ATT_TRACKING_DART
-c_att_names_34 "Tracking Darts ^3[CS4 Melee]"
+c_att_names_34 "Tracking Darts ^3[CS1]"
 c_att_ranks_34 0,1,1
 }
 
@@ -190,7 +187,8 @@ WeaponInfo1
 	altFlashSound0   "sound/weapons/ee3/sniperfire.mp3"
 	WeaponName		"E-5 Blaster BX Custom"
 	customAmmo		750
-	clipSize		50
+	clipSize		26
+	reloadTimeModifier 1.5
 }
 WeaponInfo2
 {
@@ -206,7 +204,7 @@ WeaponInfo2
 	FlashSound1	"sound/weapons/halo_beamrifle/fire1.mp3"
 	FlashSound2	"sound/weapons/halo_beamrifle/fire2.mp3"
 	FlashSound3	"sound/weapons/halo_beamrifle/fire3.mp3"
-	CustomAmmo 	30
+	CustomAmmo 	10
 }
 WeaponInfo3
 {	
@@ -232,13 +230,14 @@ WeaponInfo3
 	primFireEnabled	0
 	altFireEnabled	0
 	damageMod 0.001
+	customAmmo 6
 }
 
 ForceInfo0
 {
 	ForceToReplace FP_SEE
 	Icon	"gfx/forcepowers/radar"
-	ForcePowerName "Radar Scanner"
+	ForcePowerName "Thermal Vision"
 	StartSound 	"sound/ambience/kotor/consolebeep03.mp3"
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
