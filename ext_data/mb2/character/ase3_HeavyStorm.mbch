@@ -2,39 +2,33 @@ ClassInfo
 {
 	name				"ase3_HeavyStorm"
 	weapons			WP_MELEE|WP_BLASTER_PISTOL
-	attributes		MB_ATT_AMMO,3|MB_ATT_PISTOL,2
+	attributes		MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_TRACKING_BEACON
 	
 	MBClass			MB_CLASS_CLONETROOPER
-    holdables       	HI_MEDPAC
 	
-	modelscale      	1.01
-	classNumberLimit	3
+	modelscale      	1.02
+	classNumberLimit	2
+
+	speed 	0.87
 	
 	extralives		1
 	
-	maxhealth		60
-	rankHealth		80,100
+	maxhealth		100
+	maxArmor 		80
+	
+	resource RESOURCE_BATTERY
+	forcepool 30
 
-	maxArmor 		40
-	rankArmor		80
-
-	special1HUD HUD_FRAGNADE
-	special2HUD HUD_FIRENADE
-	
-	resource RESOURCE_STAMINA
-	forcepool 100
-	
-	//WP_MeleeFlags 	HELD_SPEED
-	//WP_MinigunFlags	HELD_SLOW
-	
+	WP_FragNadeFlags HELD_TRACKING
 	flourishAnim 	BOTH_STAND5TOAIM
 	
-	knockbacktaken 0.9
+	knockbacktaken 0.85
 	//knockbackgiven 0.9
 	
-	special1			EAS_HI_SPRINT
-	special3			EAS_HI_MEDPAC
-	special4 		EAS_HI_GRAPPLEHOOK
+	special1			
+	special2	EAS_HI_EWEB
+	special3			
+	special4 	EAS_FP_PROTECT 		
 	
 	uioverlay_l "gfx/icons/heavy"
 	uioverlay_r "gfx/icons/infantry"
@@ -48,8 +42,8 @@ ClassInfo
 	customblue 	0.08 //def brown
 	
 	model_1		"stormie"
-	skin_1		"sarge"
-	uishader_1 	"models/players/stormie/mb2_icon_sarge"
+	skin_1		"mortar"
+	uishader_1 	"models/players/stormie/mb2_icon_mortar"
 	
 	model_2		"stormie"
 	skin_2		"sandtrooper_rgb"
@@ -77,69 +71,48 @@ ClassInfo
 
 	armourRegenAmount	1
 	armourRegenRate	500
-	armourRegenCap	20
-	rankArmourRegenCap	40
+	armourRegenCap	5
+	Rankarmourregencap 20
+	
 	
 	isCustomBuild		1
-	mbPoints			60
+	mbPoints			30
 
-	c_att_skill_0		MB_ATT_BLASTER
-	c_att_names_0		"E-11 Blaster Rifle"
-	c_att_ranks_0		2,2,4
-	
-	c_att_skill_1		MB_ATT_T21
-	c_att_names_1		"T-21 Heavy Blaster"
-	c_att_ranks_1		4,6,2
-	
-	c_att_skill_2		MB_ATT_MINIGUN
-	c_att_names_2		"Z-6 Rotary Cannon (Minigun)"
-	c_att_ranks_2		10
-	c_att_descs_2		"24% slower RoF, 5% more Dmg, 10% more FP Dmg"
+	c_att_skill_1		MB_ATT_MINIGUN
+	c_att_names_1		"Z-6 Minigun"
+	c_att_ranks_1		10,0
 
-	c_att_skill_3		MB_ATT_PLX1
-	c_att_names_3		"MiniMag PTL Launcher (PLX)"
-	c_att_ranks_3		6
+	c_att_skill_2		MB_ATT_CR2
+	c_att_names_2		"TL-50 Heavy Repeater (CR-2)"
+	c_att_ranks_2		6,0
+	c_att_descs_2		"+20% ROF"
 	
-	c_att_skill_4		MB_ATT_FRAGS
-	c_att_names_4		"Frag Grenade"
-	c_att_ranks_4		6
+	c_att_skill_3		MB_ATT_FRAGS
+	c_att_names_3		"Tracker Grenade"
+	c_att_ranks_3		2,2,2
+	c_att_descs_3		"Tracks on hit, -99% damage, prim only"
 	
-	c_att_skill_5		MB_ATT_FIRE_GRENADES
-	c_att_names_5		"Fire Grenade"
-	c_att_ranks_5		4
+	c_att_skill_5		MB_ATT_RECHARGE
+	c_att_names_5		"Resource Regen"
+	c_att_ranks_5		2,2,2
 
-	c_att_skill_6		MB_ATT_RESPAWNS
-	c_att_names_6		"Reinforcement"
-	c_att_ranks_6		26
-	c_att_descs_6 		"1 default"
+	c_att_skill_6		MB_ATT_BLASTARMOR
+	c_att_names_6		"Blast Armour"
+	c_att_ranks_6		4
 
-	c_att_skill_7		MB_ATT_HEALTH
-	c_att_names_7		"HP (80/100)"
-	c_att_ranks_7		2,2
-		
-	c_att_skill_8		MB_ATT_ARMOUR
-	c_att_names_8		"Armor (80)"
+	c_att_skill_7		MB_ATT_FP_PROTECT
+	c_att_names_7		"Personal Energy Shield"
+	c_att_ranks_7		10,0
+	c_att_descs_7		"Protect 1 [CS4]"
+	
+	c_att_skill_8		MB_ATT_ARMOUR_REGEN_CAP
+	c_att_names_8		"Armor Regen Cap (20)"
 	c_att_ranks_8		4
-	
-	c_att_skill_9		MB_ATT_ARMOUR_REGEN_CAP
-	c_att_names_9		"Armor Regen Cap (40)"
-	c_att_ranks_9		4
 
 	c_att_skill_10		MB_ATT_ASSEMBLE
 	c_att_names_10		"Assemble"
-	c_att_ranks_10		1,2,2
-	
-	c_att_skill_11		MB_ATT_DEXTERITY
-	c_att_names_11		"Dexterity"
-	c_att_ranks_11		2
-	
-	c_att_skill_12		MB_ATT_STAMINA
-	c_att_names_12		"Stamina ^3[CS1]"
-	c_att_ranks_12		2,2,2
-	
-	c_att_skill_13		MB_ATT_GRAPPLE_HOOK
-	c_att_names_13		"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_13		1,3
+	c_att_ranks_10		2
+
 }
 
 WeaponInfo0
@@ -157,28 +130,13 @@ WeaponInfo0
 	FlashSound0			"sound/weapons/minigun/fire.wav"
 	isMinigun			1
 	Icon				"gfx/hud/w_icon_rotary_cannon"
-	WeaponName			"Z-6 Rotary Blaster Cannon"
+	WeaponName			"Z-6 Minigun"
 	customammo		900
-	clipSize	300
-	altFireEnabled	1
-	FPMult     1.1
-	damageMod 1.05
-	rateMod 0.62
- velocityMod .76
-isMinigun 1
+	clipSize	120
+	isMinigun 1
 }
 
 WeaponInfo1
-{
-	WeaponToReplace		WP_PLX1
-	WeaponBasedOff		WP_ROCKET_LAUNCHER
-	NewWorldModel		"models/weapons2/MiniMag_launcher/launcher_w.glm"
-	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
-	Icon				"gfx/hud/w_icon_MiniMag"
-	WeaponName			"MiniMag PTL Launcher"
-}
-
-WeaponInfo2
 {
 	WeaponToReplace		WP_BLASTER_PISTOL
 	WeaponBasedOff		WP_BLASTER_PISTOL
@@ -191,35 +149,70 @@ WeaponInfo2
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"	
 }
 
-WeaponInfo3
+WeaponInfo2
 {
-	WeaponToReplace		WP_FRAG_NADE
-	WeaponBasedOff		WP_FRAG_NADE
-	NewWorldModel		"models/weapons2/Stormi_TD/stormiTD_w.glm"  	
-	NewViewModel		"models/weapons2/Stormi_TD/stormiTD.md3" 
-	MissileModel "models/weapons2/Stormi_TD/stormiTD_proj.md3" 
-	AltMissileModel "models/weapons2/Stormi_TD/stormiTD_proj.md3" 
-	altMissileMissEffect	"grenades/EXP_alt"
-	Icon				"gfx/hud/w_icon_StormiTD" 					
-	WeaponName			"Frag Grenades"    
+WeaponToReplace WP_FRAG_NADE
+WeaponBasedOff WP_FRAG_NADE
+NewWorldModel               "models/weapons2/thermal/thermal_w.glm"
+NewViewModel                "models/weapons2/thermal/thermal.md3"
+NewHandsModel               "models/weapons2/thermal/thermal_hand.md3"
+Icon                            "gfx/hud/w_thermal_grenade"
+WeaponName  "Tracker Grenade"
+MissileModel "models/weapons2/thermal/thermal_proj.md3"
+MissileEffect   "effects/flechette/alt_shot" 
+MissileMissEffect   "slime_explosion_new"
+altFireEnabled 0
+damageMod 0.01
+    hasAnimOverrides 1
+    animReadyRun BOTH_THERMAL_READY2
+    animReady BOTH_THERMAL_READY2
+    animReadyWalk BOTH_THERMAL_READY2
+    animReadyNoAmmo BOTH_THERMAL_READY2
+    animAttackRun BOTH_THERMAL_THROW2
+    animAttack BOTH_THERMAL_THROW2
+    animAttackWalk BOTH_THERMAL_THROW2
 }
 
-description	"Heavy Stormtrooper 
+WeaponInfo3
+{
+	WeaponToReplace		WP_CR2
+	WeaponBasedOff		WP_CR2
+	NewWorldModel		"models/weapons2/heavy_repeater/heavy_repeater_w.glm"
+	NewViewModel		"models/weapons2/heavy_repeater/heavy_repeater.md3"
+	NewHandsModel		"models/weapons2/heavy_repeater/heavy_repeater_hand.md3"
+	NewBarrelModel		"models/weapons2/heavy_repeater/heavy_repeater_barrel.md3"
+	Icon  				"gfx/doom_wpicons/w_icon_repeater"
+	WeaponName			"Imperial Heavy Repeater"
+	MuzzleEffect  		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltFlashSound0		"sound/weapons/repeater/alt_fire_old"
+	altMissileMissEffect	"repeater/concussion"
+	//altfireenabled			0
+	clipSize 				40
+	Ratemod 0.8
+	hasAnimOverrides 1
+	animReadyRun BOTH_WESTARM5_IDLE
+	animReady BOTH_WESTARM5_IDLE
+	animStand BOTH_STAND1
+}
 
-A slow, but heavily armed soldier specializing in suppression and area denial.
+description	"Heavy Stormtrooper - Strom & Marshall Rework
+
+A slow, but heavily armed soldier specializing in suppression and fire support.
 
 ^2Weaponry:
 - Melee
 - SE-14C Blaster Pistol (2)
 
 ^6Inventory:
-- Medpac ^3[CS3]
+- EWEB Suppression Device ^3[CS2]
 
 ^8Attributes:
 - Reinforcement (1)
-- 10% less Kb Taken
-- Stamina (0)
-- Armor Regen: 1/.5s to 20
+- 20% less Kb Taken
+- Armor Regen: 1/.5s to 5
+- Battery Resource
+- Tracking Beacon
 
 ^3Abilities:
-- Sprint ^3[CS1]"
+- Personal Energy Shield(Protect ^3[CS4])"
