@@ -6,7 +6,7 @@ ClassInfo
 	extralives			1
 	classNumberLimit	4
 	MBClass				MB_CLASS_COMMANDER
-	weapons				WP_MELEE//Legends Mode character file - Created by Frenzy & Leos
+	weapons				WP_MELEE
 
 ClassInfo
 {
@@ -218,9 +218,3 @@ A customizable multilife Imperial Officer with several gadgets who can specializ
 
 ^3Abilities:
 - Dodge (2) ^3[CS1]"
-
-
-^3Abilities:
-- Dodge (2) ^3[CS1]"
-
-
