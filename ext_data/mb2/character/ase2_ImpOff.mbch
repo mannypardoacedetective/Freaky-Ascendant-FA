@@ -1,13 +1,4 @@
 //Legends Mode character file - Created by Frenzy & Leos
-
-ClassInfo
-{
-	name				"ase2_ImpOff"
-	extralives			1
-	classNumberLimit	4
-	MBClass				MB_CLASS_COMMANDER
-	weapons				WP_MELEE
-
 ClassInfo
 {
 	name				"ase2_ImpOff"
