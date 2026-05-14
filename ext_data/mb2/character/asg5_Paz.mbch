@@ -5,7 +5,7 @@ ClassInfo
 	name 			"asg5_Paz"
 	MBClass 			MB_CLASS_WOOKIE
 	weapons 			WP_MELEE|WP_MINIGUN|WP_SABER
-	attributes 		MB_ATT_HEALING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_BESKAR,3|MB_ATT_MINIGUN,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_DEFLECT,0|MB_ATT_WOOKIEE_FURY,2
+	attributes 		MB_ATT_HEALING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_BESKAR,3|MB_ATT_MINIGUN,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_DEFLECT,0|MB_ATT_WOOKIEE_FURY,2|MB_ATT_ENV_PROT,3
 	
 	forcepowers FP_RAGE,3
 	
@@ -20,7 +20,7 @@ ClassInfo
 	saberDamage 110
 	
 	resource		RESOURCE_RAGE
-	resourceRegenCap 25
+	resourceRegenCap 50
 	resourceRegenRate 250
 	resourceRegenAmount 1
 	forcepool 	150
@@ -32,7 +32,7 @@ ClassInfo
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE
 
 	maxhealth 		150
-	maxarmor		300
+	maxarmor		350
 
 	
 	speed              	0.82
@@ -74,15 +74,15 @@ WeaponInfo0
 	Icon			"gfx/hud/w_icon_rotary_cannon"
 	WeaponName		"M-55 Medium Repeating Blaster"
 	FlashSound0		"sound/weapons/e_22/fire.mp3"
-	customAmmo 		1200
+	customAmmo 		1400
 	isMinigun	1
-	clipSize	400
+	clipSize	200
 	ReloadTimeModifier	1.1
 	altFireEnabled	1
 	FPMult     0.9
-	velocityMod 1.2
+	velocityMod 0.92
 	damageMod 0.95
-	rateMod 0.92
+	rateMod 1.02
 }
 
 WeaponInfo1
@@ -102,7 +102,7 @@ ForceInfo0
 	ForcePowerName	"Last Stand"
 }
 
-description	"Paz Vizsla [Wookiee] -Kalkite ^3Reworked
+description	"Paz Vizsla [Wookiee] ^3Reworked
 
 A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistance. Can burn his Fuel for a short movement, attack speed, and defense boost.
 
@@ -135,6 +135,7 @@ A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistanc
 - Blast Armor
 - Physical Resist
 - Healing (1)
+- Environmental Protection (3)
 
 ^3Abilities:
 - Jetpack"

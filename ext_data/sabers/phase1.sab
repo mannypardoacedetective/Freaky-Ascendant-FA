@@ -7,8 +7,8 @@ phase1
 	soundLoop	"s/w/shwartz/saberhum1.wav"
 	soundOff		"sound/effects/null.wav"
 	numblades	1
-	saberLength	35
-	saberLength2	35
+	saberLength	30
+	saberLength2	30
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1
@@ -17,11 +17,11 @@ phase1
 	trailStyle	2
 	bounceOnWalls	0
 	idleInBack	1
-	boltToWrist	1
+	boltToWrist	0
 	alwaysBlock	0
 	damagescale	1.0
 	disarmable   0
-	saberRadius4	20
+	saberRadius4	30
 	throwable	0
 	noManualDeactivate 	1
 	saberColor	random
