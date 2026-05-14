@@ -34,16 +34,17 @@ ClassInfo
 	
 	modelscale      1.03	
 	
-	resource 	RESOURCE_STAMINA 
+	resource 	RESOURCE_FUEL 
 	forcepool	30
 	resourceRegenCap 	30
-    resourceRegenAmount 	1
-    resourceRegenRate 5000
+    resourceRegenAmount 	15
+    resourceRegenRate 10000
 	WP_BlasterPistolFlags 	HELD_ALTRELOAD
 
 	special1 EAS_HI_ROCKET
 
 	special3 EAS_HI_DASH
+	AB_WLaserFlags HELD_LOWDAMAGE
 }
 
 WeaponInfo0
@@ -106,8 +107,7 @@ Eagle-eyed sharpshooters with Jetpacks.
 - Sonic Detonator (1)
 
 ^8Attributes:
-- Stamina (0)
--- Extra Resource Regen: 1/5s
+- Fuel Resource Regen: 15/10s
 - Beskar (3)
 - Blast Armor
 - Tracking Beacon
@@ -116,4 +116,5 @@ Eagle-eyed sharpshooters with Jetpacks.
 - Jetpack
 - Rocket ^3[CS1]
 - Wrist Laser ^3[CS2]
+-- 50% Less Damage
 - Dash (1) ^3[CS3]"
