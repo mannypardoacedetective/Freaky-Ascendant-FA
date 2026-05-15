@@ -6,7 +6,7 @@ ClassInfo
 	extralives	1
 	MBClass		MB_CLASS_SOLDIER
 	weapons			WP_MELEE|WP_THERMAL
-
+	classNumberLimit			3
 	attributes		MB_ATT_AMMO,2|MB_ATT_RECHARGE,1|MB_ATT_ASSEMBLE,1|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BLAST_ARMOUR
 	classflags	CFL_BLOODYMELEE
 	WP_ThermalFlags	HELD_SONIC
