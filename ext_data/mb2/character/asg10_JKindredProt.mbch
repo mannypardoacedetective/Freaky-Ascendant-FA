@@ -4,10 +4,10 @@ ClassInfo
 	name			"asg10_JKindredProt"
 	weapons			WP_MELEE|WP_SABER
 	saberstyle		SS_MEDIUM|SS_FAST
-	forcepowers		FP_SABER_OFFENSE,1|FP_LEVITATION,3|FP_PUSH,1|FP_PULL,3|FP_PROTECT,1|FP_SEE,1|FP_SABERTHROW,2
+	forcepowers		FP_SABER_OFFENSE,1|FP_LEVITATION,3|FP_PUSH,3|FP_PULL,1|FP_PROTECT,1|FP_SEE,1|FP_SABERTHROW,2
 	attributes		MB_ATT_FORCEBLOCK,2|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_LIGHTS_BEACON
 	
-	basespeed		235
+	basespeed		240
 	
 	BPmultiplier	1.1
 	APmultiplier	1
@@ -44,8 +44,8 @@ ClassInfo
 	saber1_1		tiplee_legends
 	sabercolor_1	4
 	
-	saber1_2		agen_kolar_legends
-	sabercolor_2	4
+	saber1_2			saber_aayla_legends
+	sabercolor_2		4
 	
 	model		"barriss_offee"
 	skin		"default"
@@ -55,9 +55,9 @@ ClassInfo
 	skin_1		"default"
 	uishader_1	"models/players/tiplee/mb2_icon_default"
 	
-	model_2 	"eeth_koth"
-	skin_2		"agenkolar"
-	uishader_2	"models/players/eeth_koth/mb2_icon_agenkolar"
+	model_2		"aayla"
+	skin_2		"default"
+	uishader_2	"models/players/aayla/mb2_icon_default"
 }
 
 description	"Defensive Jedi Kindred [Jedi]
