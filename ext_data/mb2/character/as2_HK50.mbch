@@ -57,7 +57,7 @@ HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_FLAME|HELD_EXPLOSIVE|HELD_DISRUPTIFY|HELD_SLO
 	c_att_skill_1	MB_ATT_DC_CARBINE	
 	c_att_names_1	"Modified 'Wanton' Blaster" 	
 	c_att_ranks_1	4,0,2
-	c_att_descs_1	"Alt Fire Disabled, Mag Reload, 60% Faster Rof, 40% Lower Damage/FP Drain"
+	c_att_descs_1	"Alt Fire Disabled, Mag Reload, 60% Faster Rof, 40% Lower Damage"
 
 	c_att_skill_2	MB_ATT_EE4	
 	c_att_names_2	"Droid Butcher's Rifle"	
@@ -81,7 +81,7 @@ HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_FLAME|HELD_EXPLOSIVE|HELD_DISRUPTIFY|HELD_SLO
 	c_att_skill_6	MB_ATT_PLX1
 	c_att_names_6	"'Body Count Multipler'"
 	c_att_ranks_6	14
-	c_att_descs_6	"PLX, 15% Slower Movement, Applies Fire/Stun, Extra Explosive Damage, Knocks Back/Down"
+	c_att_descs_6	"Applies Fire/Stun, Extra Explosive Damage, Knocks Back/Down"
 
 	c_att_skill_7	MB_ATT_RALLY
 	c_att_names_7	"Rally"
@@ -90,6 +90,7 @@ HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_FLAME|HELD_EXPLOSIVE|HELD_DISRUPTIFY|HELD_SLO
 	c_att_skill_8	MB_ATT_TRACKING_DART
 	c_att_names_8	"Tracking Darts"
 	c_att_ranks_8	2,2,2
+	c_att_descs_8	"CS1 Melee Out"
 	
 	
 
@@ -110,7 +111,7 @@ WeaponInfo0
  	FPMult				.5
 	clipsize 140
 	reloadTimeModifier 1.65
-	velocityMod .85
+	velocityMod .75
 	damageMod .5
 	rateMod .65
 	customammo 2000
@@ -145,6 +146,7 @@ WeaponInfo1
 	FPChargeMult 2
 	damageMod .7
 	rateMod .75
+	velocityMod .80
 }
 WeaponInfo2
 {
@@ -206,11 +208,14 @@ altMissileMissEffect    "firegrenade/prim_explode_enhanced2"
 
 description "HK-50 'Assassin' Droid 
 
-A straightforward assassin droid who doesn't care for subtlety (or collateral damage) and appreciates teamwork.
+A straightforward assassin droid who doesn't care for subtlety (or colleteral damage) and appreciates teamwork.
 
 
 ^2Weaponry:
 - Heavy Melee
+
+^5Powers:
+- Radar Scanner (Sense 1)
 
 ^8Attributes:
 - Assemble (2)
