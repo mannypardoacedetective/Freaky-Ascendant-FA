@@ -41,22 +41,6 @@ ClassInfo
 	skin_1		"default"
 	uishader_1	"gfx/hud/FA_Icons/mb2_icon_imp_rockettrooper"
 	
-	model_2		"stormie"
-    skin_2		"jet"
-    uishader_2 	"models/players/stormie/mb2_icon_jet"
-	
-	model_3		"stormie"
-    skin_3		"jetcom"
-    uishader_3 	"models/players/stormie/mb2_icon_jetcom"
-	
-	model_4		"stormie"
-    skin_4		"jet_legacy"
-    uishader_4 	"models/players/stormie/mb2_icon_jet_legacy"
-	
-	model_5		"stormie"
-    skin_5		"jetcom_legacy"
-    uishader_5 	"models/players/stormie/mb2_icon_jetcom_legacy"
-	
 	//respawncustomtime 		30000		
 }
 
