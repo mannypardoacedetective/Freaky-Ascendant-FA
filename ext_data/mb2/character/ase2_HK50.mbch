@@ -79,7 +79,7 @@ HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_FLAME|HELD_EXPLOSIVE|HELD_DISRUPTIFY|HELD_SLO
 	c_att_descs_5	"Base Thermal Grenade, +150% Damage"
 
 	c_att_skill_6	MB_ATT_PLX1
-	c_att_names_6	"'Body Count Multipler' (PLX)"
+	c_att_names_6	"Body Count Multipler (PLX)"
 	c_att_ranks_6	14
 	c_att_descs_6	"Applies Fire/Stun, Extra Explosive Damage, Knocks Back/Down"
 
