@@ -1,0 +1,36 @@
+darksaber_ascendancy
+{
+	name		"Darksaber (Ascendancy)"
+	saberType	SABER_SINGLE
+	saberModel  "models/weapons2/saber_plasma/saber_darksaber3.glm"
+	saberLength 40
+	//saberColor  random
+	darksaber		1
+	disarmable		1
+	throwable		0
+	soundOn		"s/w/s/ds_saberon.wav"
+	soundOff		"s/w/s/ds_saberoff.wav"
+	soundLoop	"s/w/s/ds_hum.wav"
+	swingSound1	"s/w/s/ds_hup1.wav"
+	swingSound2	"s/w/s/ds_hup2.wav"
+	swingSound3	"s/w/s/ds_hup3.wav"
+	bounceSound1	"s/w/s/ds_bounce1.wav"
+	bounceSound2	"s/w/s/ds_bounce2.wav"
+	bounceSound3	"s/w/s/ds_bounce3.wav"
+	blockSound1	"s/w/s/ds_block1.wav"
+	blockSound2	"s/w/s/ds_block2.wav"
+	blockSound3	"s/w/s/ds_block3.wav"
+	noCartwheels 1
+	jumpAtkLeftMove LS_NONE
+	jumpAtkRightMove LS_NONE
+	lungeAtkMove  LS_A_LUNGE
+	//jumpAtkFwdMove	LS_PULL_ATTACK_SWING
+	readyAnim BOTH_TAVION_STANCE
+	spinsound	"s/w/s/spin.wav"
+	hitSound1	"s/w/s/hit1.mp3"
+    hitSound2	"s/w/s/hit2.mp3"
+    hitSound3	"s/w/s/hit3.mp3"
+	bounceSound1	"s/w/s/bounce1.mp3"	
+	bounceSound2	"s/w/s/bounce2.mp3"
+	bounceSound3	"s/w/s/bounce3.mp3"
+}
