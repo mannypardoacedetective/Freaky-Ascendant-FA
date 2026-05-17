@@ -138,7 +138,7 @@ SubclassesForClass6
 	Subclass8	"asg10_JApostate"
 	Subclass9	"asg10_Rosh"
 	Subclass10	"asg10_Grogu"
-	Subclass11	"asg10_JKindredOne"
-	Subclass12	"asg10_JKindredTwo"
+	Subclass11	"asg10_JKindredAbs"
+	Subclass12	"asg10_JKindredProt"
 	Subclass13	"asg10_RahmKota"
 }
