@@ -29,7 +29,7 @@ SubclassesForClass1
 	Subclass11	"v2_Hondo"
 	Subclass12	"v2_Greedo"
 	Subclass13	"v2_Calo"
-	Subclass14	"ase2_ImpOff"
+	Subclass14	"ase3_EliteStorm"
 	Subclass15	"ase3_HeavyStorm"
 	Subclass16	"v3_Trando"
 	Subclass17	"ase3_DeathTr"
@@ -37,7 +37,7 @@ SubclassesForClass1
 	Subclass19	"v3_IG88"
 	Subclass20	"ase3_RakatanInfantry"
 	Subclass21	"ase3_Cultforce"
-	Subclass22	"ase3_EliteStorm"
+	Subclass22 	"ass2_HK50"
 }
 
 SubclassesForClass2
@@ -63,6 +63,7 @@ SubclassesForClass2
 	Subclass19	"ase5_P3DarkTr"
 	Subclass20	"ase5_AstroR2"
 	Subclass21	"ase5_GadgetMando"
+	Subclass22	"ase5_JetTr"
 }
 
 SubclassesForClass3
