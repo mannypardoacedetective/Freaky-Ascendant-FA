@@ -3,10 +3,9 @@ ClassInfo
 {
 	name				"ase3_EliteStorm"
 	weapons			WP_MELEE|WP_BLASTER_PISTOL
-	attributes		MB_ATT_AMMO,3|MB_ATT_DODGE,2|MB_ATT_BLAST_ARMOUR|MB_ATT_ASSEMBLE,1|MB_ATT_PISTOL,2|MB_ATT_MEDPAC
+	attributes		MB_ATT_AMMO,3|MB_ATT_DODGE,2|MB_ATT_BLAST_ARMOUR|MB_ATT_ASSEMBLE,1|MB_ATT_PISTOL,2|MB_ATT_BACTA
 	
 	MBClass			MB_CLASS_CLONETROOPER
-    holdables       	HI_MEDPAC
 	
 	modelscale      	1.00
 	speed			1.01
@@ -80,7 +79,7 @@ ClassInfo
 	c_att_descs_0		"+5% Velocity & Damage"
 	
 	c_att_skill_1		MB_ATT_EE4
-	c_att_names_1		"DLT-19D Heavy Blaster Rifle"
+	c_att_names_1		"DLT-19D Heavy Blaster Rifle (EE4)"
 	c_att_ranks_1		8
 	c_att_descs_1		"+60% Rate of Fire, -15% Damage, -40% FP Damage, -15% Movement Speed"
 	
