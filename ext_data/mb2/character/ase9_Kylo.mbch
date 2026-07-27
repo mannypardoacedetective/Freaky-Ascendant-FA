@@ -10,6 +10,9 @@ ClassInfo
 	forcepowers		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_PUSH,2|FP_GRIP,2|FP_SEE,1|FP_PROTECT,2|FP_SABERTHROW,1|FP_RAGE,1
 
 	maxhealth		125
+	healthRegenAmount 1
+	healthRegenRate 1500
+	healthRegenCap	35
 	forcepool		110
 
 	speed  1.05
@@ -101,6 +104,7 @@ An attack/support-oriented Sith sporting a unique high-damage and extended-combo
 - Protect (2) ^3[CS4*] 
 
 ^8Attributes:
+- Heal capped at 35hp
 - 50% slower skill CD
 ^9- ^3*^9Dark's Beacon (Shares Force Powers with ^9a targeted/nearby ally)
 - Force Block/Focus (2)"

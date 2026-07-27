@@ -1,0 +1,89 @@
+ClassInfo
+{
+	name			"ktg9_JediKnight"
+	weapons			WP_MELEE|WP_SABER
+	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,1|MB_ATT_SABER_MEDIUM,2|MB_ATT_ASSEMBLE,1|MB_ATT_FORCEBLOCK,1
+	forcepowers			FP_SABER_OFFENSE,1|FP_PUSH,2|FP_SEE,1|FP_SABERTHROW,1|FP_SPEED,1|FP_LEVITATION,1
+	extralives	2
+
+	MBClass			MB_CLASS_JEDI
+	
+	classflags CFL_NOPICKUPS
+
+	
+	special3 EAS_FP_SPEED
+
+	maxhealth	100
+
+	saberDamageStyle SS_STRONG,300|SS_DESANN,300|SS_FAST,160|SS_TAVION,160
+	
+	forcepool		80
+	rankForcepool 100
+
+	speed .98
+
+	forceregen	.95
+
+	ASmultiplier	.98
+	CSmultiplier	.98
+	APmultiplier	.85
+	BPmultiplier	.90
+	
+	uioverlay_l "gfx/icons/frontline"
+	uioverlay_r "gfx/icons/infantry"
+	
+	model			"jedipack_hb"
+	skin			"twilek"
+	uishader		"models/players/jedipack_hb/mb2_icon_twilek"
+
+	model_1			"gwethenea"
+	skin_1			"jedi"
+	uishader_1		"models/players/gwethenea/mb2_icon_jedi"
+		
+	saber1			saber_kshrt
+	sabercolor		4
+	saberstyle		SS_MEDIUM|SS_FAST
+	
+	saber1_1		saber_kshrt_shoto
+	saber2_1		saber_kshrt_shoto
+	sabercolor_1		1
+	saber2color_1		5
+	saberstyle_1		SS_DUAL|SS_TAVION
+	
+	saber1_2    		saber_kshrt_shoto
+	sabercolor_2		3
+	saberstyle_2		SS_DESANN|SS_STRONG
+	
+	saber1_3    		saber_kdbl
+	sabercolor_3		2
+	saberstyle_3		SS_STAFF
+	
+	classNumberLimit	4
+}
+
+description	"Jedi Knight 
+
+3-life Jedi with weaker Force Powers and Lightsaber attributes.
+
+^2Weaponry: 
+- Melee
+- Lightsaber
+-- Short Saber (Yellow/Blue)
+-- Dual Shotos (Duals/Cyan)
+-- Single Shoto (Red/Purple)
+-- Double Bladed (Staff)
+-- Lower Damage Heavy Styles, Higher Damage Light Styles
+-- Saber Throw (1) ^3[CS1]
+
+^8Attributes:
+- Reinforcement (2)
+- Force Focus (2)
+- Assemble (1)
+- Saber/Blaster Defense (1)
+- Deflect (1)
+
+^5Force Powers:
+- Push (2)
+- Sense (1)
+- Jump (1)
+- Speed (1) ^3[CS3]"

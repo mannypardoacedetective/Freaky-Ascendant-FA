@@ -1,0 +1,108 @@
+ClassInfo
+{
+	name			"kte9_DarkJedi"
+	weapons			WP_MELEE|WP_SABER
+	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEFLECT,1|MB_ATT_SABER_MEDIUM,2|MB_ATT_ASSEMBLE,1|MB_ATT_FORCEBLOCK,1
+	forcepowers			FP_SABER_OFFENSE,1|FP_PULL,2|FP_SEE,1|FP_SABERTHROW,1|FP_RAGE,1|FP_LEVITATION,1|FP_LIGHTNING,1
+	extralives	2
+
+	MBClass			MB_CLASS_SITH
+	classflags CFL_NOPICKUPS
+	special2 EAS_NONE
+	special3 EAS_FP_RAGE
+	maxhealth	150
+	starthealth	100
+
+ saberDamageStyle SS_STRONG,300|SS_DESANN,300|SS_FAST,130|SS_TAVION,130
+	
+	forcepool		80
+	rankForcepool 100
+
+	speed .98
+
+	forceregen	.95
+
+	ASmultiplier	.98
+	
+	CSmultiplier	.98
+
+	APmultiplier	.90
+
+	BPmultiplier	.85
+
+
+	rateOfFire_Melee 1
+
+	rankROFMelee   1,0.95
+
+	customred			0.784
+	customgreen			0
+	customblue			0
+	
+	uioverlay_l "gfx/icons/frontline"
+	uioverlay_r "gfx/icons/infantry"
+	
+	model		"reborn"
+	skin		"Darkjedi"
+	uishader	"models/players/reborn/mb2_icon_darkjedi"
+
+	model_1		"reborn_female"
+	skin_1		"Darkjedi"
+	uishader_1	"models/players/reborn_female/mb2_icon_darkjedi"
+
+	model_2		"sith_assassin"
+	skin_2		"acolyte"
+	uishader_2	"models/players/sith_assassin/mb2_icon_acolyte"
+
+	model_3		"sith_assassin_f"
+	skin_3		"default"
+	uishader_3	"models/players/sith_assassin_f/mb2_icon_default"
+		
+	saber1			saber_kshrt
+	sabercolor		0
+	saberstyle		SS_MEDIUM|SS_STRONG
+	
+	saber1_1		saber_kshrt_shoto
+	saber2_1		saber_kshrt_shoto
+	sabercolor_1		0
+	saber2color_1		5
+	saberstyle_1		SS_DUAL|SS_DESANN
+	
+	saber1_2    		saber_kshrt_shoto
+	sabercolor_2		0
+	saberstyle_2		SS_TAVION|SS_FAST
+	
+	saber1_3    		saber_kdbl
+	sabercolor_3		0
+	saberstyle_3		SS_STAFF
+	
+	classNumberLimit	4
+}
+
+description	"Dark Jedi 
+
+3-life Sith with weaker Force Powers and Lightsaber attributes.
+
+^2Weaponry: 
+- Melee
+- Lightsaber
+-- Short Saber (Yellow/Blue)
+-- Dual Shotos (Duals/Cyan)
+-- Single Shoto (Red/Purple)
+-- Double Bladed (Staff)
+-- Lower Damage Heavy Styles, Higher Damage Light Styles
+-- Saber Throw (1) ^3[CS1]
+
+^8Attributes:
+- Reinforcement (2)
+- Force Focus (2)
+- Assemble (1)
+- Saber/Blaster Defense (1)
+- Deflect (1)
+
+^5Force Powers:
+- Push (2)
+- Jump (1)
+- Lightning (1)
+- Sense (1)
+- Dark Rage (1) ^3[CS3]"

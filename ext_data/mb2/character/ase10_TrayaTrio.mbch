@@ -6,12 +6,15 @@ ClassInfo
 	weapons				WP_MELEE|WP_SABER
 	forcepowers			FP_LEVITATION,1|FP_SEE,3|FP_SABER_OFFENSE,3|FP_SABERTHROW,2|FP_TELEPATHY,1|FP_GRIP,1|FP_PUSH,1|FP_PULL,1
 	
-	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_DISP_HEALTH,2|MB_ATT_USE_DISTANCE,7|MB_ATT_HEALING,2|MB_ATT_FP_REPULSE|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
+	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_DISP_HEALTH,2|MB_ATT_USE_DISTANCE,7|MB_ATT_FP_REPULSE|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
 	
 	
 	classNumberLimit	1
 	
 	maxhealth	80
+	healthRegenAmount 1
+	healthRegenRate 1500
+	healthRegenCap	35
 	modelscale	0.95
 	speed .94
 	
@@ -22,7 +25,8 @@ ClassInfo
  	saber1			trayasab
 	sabercolor		0
 	saberstyle		SS_TAVION|SS_DESANN
-	
+	saberDamageStyle SS_TAVION,130
+
 	saber1_1	saber_trayaright_legends
 	saber2_1	saber_trayaleft_legends
 	saberstyle_1	SS_DUAL
@@ -138,6 +142,7 @@ A defensive support class that can use AOE powers to supply teammates with healt
 -- Saber Deflect (1)
 -- Enhanced Saber Throw (3) ^3[CS1]
 -- Slap ^3[CS2]
+-- +8% Cyan Damage
 > Sith Lightsaber
 -- Cyan/Purple styles
 > Traya's Triple Sabers
@@ -158,7 +163,7 @@ A defensive support class that can use AOE powers to supply teammates with healt
 
 ^8Default Attributes:
 - 50% slower skill cooldown
-- Healing (2)
+- Heal capped at 25hp
 - Ally Stat Viewer
 - Force Block/Focus (2)
 
